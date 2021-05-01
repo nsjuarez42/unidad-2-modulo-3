@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@300&display=swap');
+
+body{
+    background-color: #F2F8FD;
+}
+#form{
+    display:flex;
+    justify-content:center;
+}
+h1{
+    font-family: 'Antonio',sans-serif;
+    text-align: center;
+}
+
+label{
+   font-family: 'Antonio',sans-serif;
+   margin-left:40px;
+}
+
+input{
+font-family: 'Antonio',sans-serif;
+padding:8px;
+margin:1vh 1vh;
+width:10vw;
+}
+
+input:focus{
+    border:3px solid #D7E1E9;
+    border-radius:10px;
+}
+
+#submit{
+width: 10vw;
+font-size: 15px;
+}

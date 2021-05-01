@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>TP de unidad 2 modulo 3</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Formulario para registrarse</h1>
+    <div id="form">
+    <form method ="POST" action = "/registrar">
+        
+    <label for="nombre">Nombre</label><br/>
+    <input type ="text" name ="nombre" class="input" id="nombre" placeholder = "Nombre"><br/>
+
+    <label for="apellido">Apellido</label><br/>
+    <input type ="text" name ="apellido" class="input" id="apellido" placeholder = "Apellido"><br/>
+
+    <label for="edad">Edad</label><br/>
+    <input type = "number" name ="edad" min ="8" max="100" class="input" placeholder = "Edad" ><br/>
+
+    <label for="numero_celular">Numero de celular</label><br/>
+    <input type ="text" name="numero_celular" class="input" id="numero_celular" placeholder="Numero de celular"><br/>
+
+    <label for="pais_nacimiento">Pais de nacimiento</label><br/>
+    <input type="text" name="pais_nacimiento" class="input" placeholder="Pais de nacimiento"><br/>
+
+    <label for="pais_residencia">Pais de residencia</label><br/>
+    <input type="text" name="pais_residencia" class="input" id="pais_residencia" placeholder="Pais de residencia"><br/>
+    <input type ="submit" value ="Enviar" id="submit">
+    </form>
+    </div>
+</body>
+</html>

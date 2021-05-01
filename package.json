@@ -1,0 +1,23 @@
+{
+  "name": "unidad-2",
+  "version": "1.0.0",
+  "description": "Trabajo practico de la unidad 2 modulo 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nsjuarez42/unidad-2-modulo-3.git"
+  },
+  "author": "Nicolas Juarez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nsjuarez42/unidad-2-modulo-3/issues"
+  },
+  "homepage": "https://github.com/nsjuarez42/unidad-2-modulo-3#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
