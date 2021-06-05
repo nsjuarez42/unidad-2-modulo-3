@@ -5,10 +5,12 @@
 
  <h2>Instrucciones</h2>
  <h3>Antes de correr el sitio web</h3>
+ 
  ```
  npm install
  ```
 <h3>Para correr el sitio web</h3>
+
  ```
  node index
  ```
